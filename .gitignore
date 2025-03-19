@@ -1,0 +1,8 @@
+node_modules/
+package-lock.json
+
+dist/
+.parcel-cache/
+.cache/
+
+.DS_Store  # Mac 用戶請加這個

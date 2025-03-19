@@ -1,0 +1,24 @@
+{
+  "name": "chu_qiaoyi_oop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build":"parcel build src/index.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qiaoyi-C/Chu_Qiaoyi_OOP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Qiaoyi-C/Chu_Qiaoyi_OOP/issues"
+  },
+  "homepage": "https://github.com/Qiaoyi-C/Chu_Qiaoyi_OOP#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
+}
