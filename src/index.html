@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dessert Recipe</title>
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+</head>
+
+<header class="title-bk">
+  <div class="grid-con">
+    <div class="logo-img col-span-full"><img src="images/logo2.png" alt="Cake Logo"></div>
+
+  </div>
+</header>
+
+<section class="hero">
+    <div class="grid-con">
+      <div class="hero-text col-span-full m-col-start-1 m-col-end-7 l-col-start-1 l-col-end-7">
+        <p>Your Sweet Adventure Starts Here!</p>
+      </div>
+
+      <div class="hero-img col-span-full m-col-start-7 m-col-end-13 l-col-start-7 l-col-end-13"> 
+        <img src="images/hero.png" alt=" Desserts">
+      </div>
+  </div>
+
+</section>
+
+<body>
+
+  <div class="choose grid-con">
+    <div class="choose-title col-span-full"><h2>Find My Recipe ✨</h2></div>
+    <div class="col-span-full" id="recipe-container"></div>
+    <div id="recipe-modal" >
+      <div id="modal-content"></div>
+      <button id="close-modal">Close</button>
+    </div>
+  </div>
+<script type="module" src="js/index.js"></script>
+</body>
+</html>

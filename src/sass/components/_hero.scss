@@ -1,0 +1,46 @@
+.hero{
+    background-color: #fed4d4;
+    width: 100%;
+    font-size: 36px;
+    padding: 20px;
+    padding-top: 30px;
+    display: flex;
+}
+
+.hero-text {
+    color: #e80d77;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+
+.hero-img{
+    text-align: center;
+    margin: 20px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .hero{
+      font-size: 44px;
+    }
+
+    .hero-text {
+        text-align: left;
+    }
+  
+  }
+  
+  @media screen and (min-width: 1200px) {
+    
+    .hero{
+      font-size: 60px;
+    }
+
+    .hero-text {
+        text-align: left;
+    }
+  
+  }
