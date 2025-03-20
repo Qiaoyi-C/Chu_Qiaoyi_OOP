@@ -1,4 +1,4 @@
-<img src="./images/home.png" alt="Homepage" width="600">
+<img src=".src/images/home.png" alt="Homepage" width="600">
 
 # 🍰 Dessert Recipe Book
 
