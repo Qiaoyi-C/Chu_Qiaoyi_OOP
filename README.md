@@ -1,4 +1,4 @@
-<img src=".src/images/home.png" alt="Homepage" width="600">
+<img src="../Chu_Qiaoyi_OOP/src/images/home.png" alt="Homepage" width="600">
 
 # 🍰 Dessert Recipe Book
 
